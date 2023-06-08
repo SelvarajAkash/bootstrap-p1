@@ -1,0 +1,99 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+  }
+
+  section{
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* ---------------------NavBar---------------*/
+  .bold{
+    font-size: 30px;
+    color: orangered;
+  }
+  li{
+    padding: 5px;
+  }
+  .nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+  }
+  .nav-link:hover{
+    border-bottom: 3px solid orangered;
+    transition: .1s;
+  }
+
+  /*------------------HOME---------------*/
+
+  #navbar{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+  }
+
+  span{
+    color: orangered;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+
+
+  
+  
+  p{
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  /*-------------------------------ABOUT-------------------------*/
+
+  #about img{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  #about img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+  }
+
+    /*-----------------------------SERVICES--------------------------*/
+
+    .card img{
+      height: 200px;
+    }
+
+    .inner{
+      overflow: hidden;
+    }
+    .card img:hover{
+      transform: scale(1.5);
+      transition: 1s;
+    }
+
+    /*----------------------CONTACT-------------------*/
+
+    form{
+      padding: 40px;
+      box-shadow: 2px 2px 5px rgba(0,0,0 ,.2),
+                  -1px -1px 5px rgba(0,0,0 ,0.05);
+      border-radius : 30px;  
+    }
+
+
